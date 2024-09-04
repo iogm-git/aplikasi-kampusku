@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="kampusku">Kampusku</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="input_data">Input Data</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="informasi">Informasi</string>
+    <string name="activity_info_desc">Aplikasi Kampusku merupakan aplikasi yang digunakan untuk pendataan mahasiswa. User nantinya bisa menambahkan update, dan hapus data mahasiswa.</string>
+    <string name="update_data">Update Data</string>
+    <string name="hapus_data">Hapus Data</string>
+    <string name="logout">Logout</string>
+</resources>

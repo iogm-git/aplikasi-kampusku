@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/bg_edit_text"
+        >
+        <EditText
+            android:id="@+id/etInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="7dp"
+            android:paddingVertical="15dp"
+            android:drawablePadding="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/ivTogglePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_visibility"
+            android:visibility="gone"
+            app:tint="@color/link_color" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="-66dp"
+        android:paddingHorizontal="4dp"
+        android:textColor="@color/link_color"
+        android:background="@color/bg_color"/>
+
+
+</LinearLayout>

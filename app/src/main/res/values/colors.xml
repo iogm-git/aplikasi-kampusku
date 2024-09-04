@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background Colors -->
+    <color name="bg_color">#FFFFFF</color>
+    <color name="transbg_color">#FFFFFF80</color>
+    <color name="second_bg_color">#FCFCFC</color>
+    <color name="third_bg_color">#FAFAFA</color>
+    <color name="fourth_bg_color">#F7F7F7</color>
+    <color name="fifth_bg_color">#F5F5F5</color>
+
+    <!-- Text Colors -->
+    <color name="text_color">#18193F</color>
+    <color name="transtext_color">#1B18193F</color>
+
+    <!-- Link Colors -->
+    <color name="link_color">#5F6368</color>
+    <color name="translink_color">#1B5F6368</color>
+
+    <!-- Border Color -->
+    <color name="border_color">#EBEBEB</color>
+
+    <!-- Red Colors -->
+    <color name="red_color">#EF2323</color>
+    <color name="transred_color">#1BEF2323</color>
+
+    <!-- Orange Colors -->
+    <color name="orange_color">#FF7200</color>
+    <color name="transorange_color">#1BFF7200</color>
+
+    <!-- Green Colors -->
+    <color name="green_color">#009F4D</color>
+    <color name="transgreen_color">#1B009F4D</color>
+
+    <!-- Blue Colors -->
+    <color name="primary_color">#FFE082</color>
+    <color name="transprimary_color">#1BFFE082</color>
+</resources>

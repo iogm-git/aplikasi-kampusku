@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.mahasiswa.EditActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ilhamrhmtkbr.app.components.InputText
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/input_nomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:labelText="Nomor"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ilhamrhmtkbr.app.components.InputText
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:labelText="Nama"
+        app:layout_constraintTop_toBottomOf="@+id/input_nomer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ilhamrhmtkbr.app.components.InputDate
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/input_tanggal_lahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelText="Tanggal Lahir"
+        app:layout_constraintTop_toBottomOf="@+id/input_nama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ilhamrhmtkbr.app.components.InputSelect
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/input_jenis_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:options="L, P"
+        app:labelText="Jenis Kelamin"
+        app:layout_constraintTop_toBottomOf="@id/input_tanggal_lahir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ilhamrhmtkbr.app.components.InputText
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/input_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:labelText="Alamat"
+        app:layout_constraintTop_toBottomOf="@+id/input_jenis_kelamin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="40dp"
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        style="@style/ButtonPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/input_alamat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
